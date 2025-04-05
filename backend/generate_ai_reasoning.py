@@ -2,9 +2,9 @@
 
 import json
 from llm_agent import generate_reasoning
-from config import DATASET_PATH
+from backend.config import ORIGINAL_DATASET_PATH
 
-with open(DATASET_PATH) as f:
+with open(ORIGINAL_DATASET_PATH) as f:
     ideas = json.load(f)
 
 for i, idea in enumerate(ideas):
