@@ -13,5 +13,5 @@ for i, idea in enumerate(ideas):
         print(f"[{i+1}] ✅ {idea['title']}")
 
 # Save to a new file
-with open("backend/data/small_idea_with_ai.json", "w") as f:
+with open("backend/data/small_tech_with_ai.json", "w") as f:
     json.dump(ideas, f, indent=2)
