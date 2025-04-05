@@ -1,6 +1,6 @@
 # backend/app.py
 
-from fastapi import FastAPI
+from fastapi import FastAPI, Query
 from fastapi.middleware.cors import CORSMiddleware
 from backend.scoring import get_top_ideas
 
@@ -20,5 +20,15 @@ def root():
     return {"message": "AI Agent API is running"}
 
 @app.get("/top-ideas/")
-def top_ideas():
-    return get_top_ideas()
+def top_ideas(
+    roi_weight: float = Query(0.4),
+    alignment_weight: float = Query(0.3),
+    impact_weight: float = Query(0.2),
+    effort_weight: float = Query(0.1)
+):
+    return get_top_ideas(
+        roi_weight=roi_weight,
+        alignment_weight=alignment_weight,
+        impact_weight=impact_weight,
+        effort_weight=effort_weight
+    )
