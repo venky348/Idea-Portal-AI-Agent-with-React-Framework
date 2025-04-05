@@ -1,0 +1,67 @@
+[
+    {
+        "title": "Enhanced Search Functionality",
+        "description": "Improving the search feature with AI-based relevance and speed.",
+        "effort": 100,
+        "roi": 80,
+        "strategic_alignment": 70,
+        "votes": 50,
+        "dependencies": [
+            "Database team",
+            "AI team"
+        ],
+        "status": "Under review"
+    },
+    {
+        "title": "Mobile App Revamp",
+        "description": "Complete redesign of the mobile app to improve user experience.",
+        "effort": 200,
+        "roi": 150,
+        "strategic_alignment": 90,
+        "votes": 100,
+        "dependencies": [
+            "UX team",
+            "Backend team"
+        ],
+        "status": "Under review"
+    },
+    {
+        "title": "Voice Assistant Integration",
+        "description": "Integrating a voice assistant to streamline user interactions.",
+        "effort": 150,
+        "roi": 120,
+        "strategic_alignment": 85,
+        "votes": 80,
+        "dependencies": [
+            "AI team",
+            "Mobile team"
+        ],
+        "status": "Under review"
+    },
+    {
+        "title": "Analytics Dashboard for Users",
+        "description": "Providing an analytics dashboard to visualize user data and behaviors.",
+        "effort": 120,
+        "roi": 90,
+        "strategic_alignment": 80,
+        "votes": 60,
+        "dependencies": [
+            "Frontend team",
+            "Backend team"
+        ],
+        "status": "Under review"
+    },
+    {
+        "title": "Automated Customer Support Chatbot",
+        "description": "Building an AI-powered chatbot to handle customer inquiries.",
+        "effort": 180,
+        "roi": 130,
+        "strategic_alignment": 75,
+        "votes": 120,
+        "dependencies": [
+            "AI team",
+            "Support team"
+        ],
+        "status": "Under review"
+    }
+]
