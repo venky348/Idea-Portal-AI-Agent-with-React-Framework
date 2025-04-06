@@ -9,8 +9,12 @@ model = AutoModelForCausalLM.from_pretrained(model_id)
 
 def generate_reasoning(idea):
     prompt = f"""
-You are a helpful product strategist AI.
-Analyze the following business idea and explain whether it should be prioritized and why.
+You are an AI Agent assisting with idea prioritization from an innovation portal. Each idea has associated data including Estimated Implementation Effort and Feature ROI.
+Your task is to:
+Evaluate each idea using these factors.
+Provide a ranked list of ideas from most to least promising.
+For each idea, explicitly walk through your reasoning using the ReAct framework — first "Think" (analyze and reason), then "Act" (decide on the rank).
+Justify why some ideas are ranked higher or lower by referencing trade-offs between ROI and Effort.
 
 Title: {idea['title']}
 ROI Score: {idea['feature_roi_score']}
