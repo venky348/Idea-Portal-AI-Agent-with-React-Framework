@@ -49,6 +49,20 @@ const Dashboard = () => {
     }
   };
 
+  const generateAIReasoning = async () => {
+    setLoading(true);
+    setError(null);
+    try {
+      await axios.post('http://localhost:8000/generate-reasoning');
+      await fetchIdeas();
+    } catch (err) {
+      console.error(err);
+      setError('Failed to generate AI reasoning. Please try again.');
+    } finally {
+      setLoading(false);
+    }
+  };
+
   useEffect(() => {
     fetchIdeas();
   }, [weights]);
@@ -80,10 +94,10 @@ const Dashboard = () => {
                 <h5 className="card-title text-primary">Prioritization Weights</h5>
                 <div className="btn-group">
                   <button
-                    onClick={fetchIdeas}
-                    className="btn btn-sm btn-outline-primary"
+                    onClick={generateAIReasoning}
+                    className="btn btn-sm btn-outline-success"
                   >
-                    Refresh
+                    Generate AI Reasoning
                   </button>
                   <button
                     onClick={resetWeights}

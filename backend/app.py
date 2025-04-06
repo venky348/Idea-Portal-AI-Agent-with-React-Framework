@@ -2,6 +2,9 @@
 from fastapi import Request, FastAPI, Query
 from fastapi.middleware.cors import CORSMiddleware
 from backend.scoring import get_top_ideas
+import json
+from backend.llm_agent import generate_reasoning
+from backend.config import AI_DATASET_PATH, ORIGINAL_DATASET_PATH
 
 app = FastAPI(title="Idea Portal AI Agent")
 
@@ -39,3 +42,21 @@ async def collect_feedback(request: Request):
         json.dump(feedback_data, f)
         f.write("\n")
     return {"message": "Feedback recorded"}
+
+
+@app.post("/generate-reasoning")
+def generate_reasoning_endpoint():
+    try:
+        with open(ORIGINAL_DATASET_PATH, "r") as f:
+            ideas = json.load(f)
+
+        for idea in ideas:
+            idea["reasoning"] = generate_reasoning(idea)
+
+        with open(AI_DATASET_PATH, "w") as f:
+            json.dump(ideas, f, indent=2)
+
+        return {"message": "AI reasoning generated successfully", "count": len(ideas)}
+
+    except Exception as e:
+        return {"error": str(e)}
