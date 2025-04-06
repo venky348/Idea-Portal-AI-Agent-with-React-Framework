@@ -3,25 +3,6 @@ import axios from 'axios';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import IdeaCard from '../components/IdeaCard';
 import SliderPanel from '../components/SliderPanel';
-import { Bar } from 'react-chartjs-2';
-import {
-  Chart as ChartJS,
-  CategoryScale,
-  LinearScale,
-  BarElement,
-  Title,
-  Tooltip,
-  Legend,
-} from 'chart.js';
-
-ChartJS.register(
-  CategoryScale,
-  LinearScale,
-  BarElement,
-  Title,
-  Tooltip,
-  Legend
-);
 
 const Dashboard = () => {
   const [ideas, setIdeas] = useState([]);
@@ -116,7 +97,7 @@ const Dashboard = () => {
         </div>
       </div>
 
-      {/* Row 2-4: Each IdeaCard in its own row */}
+      {/* Idea Cards */}
       {loading && (
         <div className="text-center text-primary mb-4">
           <div className="spinner-border" role="status">
@@ -161,38 +142,6 @@ const Dashboard = () => {
                     <p className="mb-0 text-dark fst-italic">{idea.reasoning}</p>
                   </div>
                 )}
-
-                {/* Chart Visualization */}
-                <Bar
-                  data={{
-                    labels: ['ROI', 'Alignment', 'Impact', 'Effort'],
-                    datasets: [
-                      {
-                        label: 'Score',
-                        data: [
-                          idea.feature_roi_score,
-                          idea.strategic_alignment_score,
-                          idea.business_impact,
-                          idea.estimated_effort_difficulty === 'Low' ? 1 : idea.estimated_effort_difficulty === 'Medium' ? 2 : 3,
-                        ],
-                        backgroundColor: ['#0d6efd', '#198754', '#ffc107', '#dc3545'],
-                      },
-                    ],
-                  }}
-                  options={{
-                    responsive: true,
-                    plugins: {
-                      legend: { display: false },
-                      title: { display: true, text: 'Score Breakdown', font: { size: 18 } },
-                    },
-                    scales: {
-                      y: {
-                        beginAtZero: true,
-                        ticks: { stepSize: 1 },
-                      },
-                    },
-                  }}
-                />
               </div>
             </div>
           </div>

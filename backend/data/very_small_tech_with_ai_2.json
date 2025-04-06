@@ -1,0 +1,126 @@
+[
+  {
+    "idea_id": "ID00001",
+    "title": "Self-enabling demand-driven project",
+    "description": "Body describe thousand plant. Condition teach response fear she operation south. Region most wrong Mrs write approach.",
+    "submitted_by": "Heidi Lopez",
+    "submission_date": "2024-10-12",
+    "department": "IT Security",
+    "estimated_effort_hours": 287,
+    "estimated_effort_difficulty": "Medium",
+    "dependencies": [
+      "R&D",
+      "IT Security"
+    ],
+    "feature_roi_score": 5.5,
+    "user_votes": 18,
+    "strategic_alignment_score": 3.3,
+    "business_impact": "High",
+    "tags": [
+      "Infrastructure",
+      "Cloud"
+    ],
+    "status": "Pending",
+    "ai_reasoning": "Prioritization: Based on the business idea's potential for high ROI and strategic alignment, we recommend that this business idea be given a high priority. The business idea is a revolutionary approach to project management that enables organizations to create demand-driven projects. This innovative solution can lead to significant cost savings, increased productivity, and improved project outcomes.\n\nWhy is this business idea prioritized?\nThe proposed business idea is a game-changer for project management"
+  },
+  {
+    "idea_id": "ID00002",
+    "title": "Profound fault-tolerant model",
+    "description": "Card impact end camera single.\nShould discover about describe their ability present television. Democratic relate listen increase lay chance beyond hope.",
+    "submitted_by": "Daniel Reid",
+    "submission_date": "2024-10-09",
+    "department": "Technical Support",
+    "estimated_effort_hours": 100,
+    "estimated_effort_difficulty": "Medium",
+    "dependencies": [
+      "Data Science",
+      "IT Security",
+      "Technical Support"
+    ],
+    "feature_roi_score": 3.5,
+    "user_votes": 41,
+    "strategic_alignment_score": 3.5,
+    "business_impact": "Low",
+    "tags": [
+      "DevOps",
+      "Security",
+      "Scalability"
+    ],
+    "status": "Pending",
+    "ai_reasoning": "The Profound fault-tolerant model proposed here is a promising business idea with a high ROI score. The model involves using fault-tolerant computing techniques to improve the reliability and scalability of computer systems. This will enable organizations to better handle faults and errors, which can lead to increased efficiency and productivity.\n\nThe proposed business idea is strategically aligned with the organization's goals, as it addresses a critical need in the market. The model will enable organizations to reduce downt"
+  },
+  {
+    "idea_id": "ID00003",
+    "title": "Multi-channeled solution-oriented initiative",
+    "description": "Property however enjoy house nothing summer simple. If first detail understand responsibility. Consider fish course dream reality Republican stuff like.",
+    "submitted_by": "Deanna Kelley",
+    "submission_date": "2025-01-11",
+    "department": "Data Science",
+    "estimated_effort_hours": 201,
+    "estimated_effort_difficulty": "Medium",
+    "dependencies": [
+      "Quality Assurance",
+      "Product Management"
+    ],
+    "feature_roi_score": 3.2,
+    "user_votes": 56,
+    "strategic_alignment_score": 2.2,
+    "business_impact": "Moderate",
+    "tags": [
+      "Automation",
+      "Scalability",
+      "Security",
+      "DevOps"
+    ],
+    "status": "Pending",
+    "ai_reasoning": "I believe that this business idea has a high potential for success and should be prioritized. The idea of a multi-channeled solution-oriented initiative is innovative and addresses a critical need in the industry. The concept of a multi-channeled solution-oriented initiative involves providing a single point of contact for customers, allowing them to manage multiple channels in a single platform. This initiative can help businesses streamline their operations, improve customer experience, and increase re"
+  },
+  {
+    "idea_id": "ID00004",
+    "title": "Profit-focused asynchronous projection",
+    "description": "Summer not nice impact evening party. Teach listen girl her. Stop best spend what marriage church party.\nAny attention enjoy statement follow then save.",
+    "submitted_by": "Erica Gonzalez",
+    "submission_date": "2025-03-31",
+    "department": "Quality Assurance",
+    "estimated_effort_hours": 50,
+    "estimated_effort_difficulty": "Low",
+    "dependencies": [
+      "Product Management",
+      "Data Science"
+    ],
+    "feature_roi_score": 4.6,
+    "user_votes": 60,
+    "strategic_alignment_score": 3.6,
+    "business_impact": "Low",
+    "tags": [
+      "Scalability",
+      "Microservices"
+    ],
+    "status": "Pending",
+    "ai_reasoning": "This business idea is a promising project that can contribute to the company's profitability. The idea involves developing a product that leverages the power of asynchronous collaboration to help clients increase productivity and profitability. The product will be designed to be flexible, customizable, and scalable, making it suitable for different businesses.\n\nThe ROI score for this project is high, with a score of 4.6. This score is based on the fact that asynchronous collaboration has been shown to increase productivity, reduce"
+  },
+  {
+    "idea_id": "ID00005",
+    "title": "Synergistic mobile installation",
+    "description": "Sell store member face garden Democrat scene government. Whose fish theory official. Pay special woman sea Mrs south.\nGreat least window cause low ground. Finish really language day or.",
+    "submitted_by": "Joshua Deleon",
+    "submission_date": "2025-02-16",
+    "department": "R&D",
+    "estimated_effort_hours": 133,
+    "estimated_effort_difficulty": "High",
+    "dependencies": [
+      "DevOps"
+    ],
+    "feature_roi_score": 3.4,
+    "user_votes": 150,
+    "strategic_alignment_score": 7.1,
+    "business_impact": "Low",
+    "tags": [
+      "User Experience",
+      "Performance",
+      "Automation"
+    ],
+    "status": "Pending",
+    "ai_reasoning": "Yes, this business idea should be prioritized and implemented. The proposed product strategy aims to enhance the installation process of mobile devices by providing an efficient and user-friendly installation solution. This will result in increased customer satisfaction, improved productivity, and reduced installation costs.\n\nThe proposed solution involves the integration of a mobile app with a cloud-based installation management system. This app will enable installers to access real-time data on the status of the installation, including progress updates, estimated completion times, and any potential issues. This"
+  }
+]
