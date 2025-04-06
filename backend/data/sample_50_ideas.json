@@ -1,0 +1,1206 @@
+[
+  {
+    "idea_id": "ID10292",
+    "title": "Role-Based Access Control System Upgrade",
+    "description": "This initiative aims to optimize data analytics to improve system reliability.",
+    "submitted_by": "Amanda Hernandez",
+    "submission_date": "2024-11-23",
+    "department": "R&D",
+    "estimated_effort_hours": 329,
+    "estimated_effort_difficulty": "High",
+    "dependencies": [
+      "R&D"
+    ],
+    "feature_roi_score": 8.9,
+    "user_votes": 102,
+    "strategic_alignment_score": 2.3,
+    "business_impact": "Moderate",
+    "tags": [
+      "Scalability",
+      "Security",
+      "User Experience",
+      "DevOps"
+    ],
+    "status": "Pending"
+  },
+  {
+    "idea_id": "ID10242",
+    "title": "Centralized Log Analytics Platform",
+    "description": "This initiative focuses on enhance DevOps workflows to improve operational efficiency.",
+    "submitted_by": "Jordan Brady",
+    "submission_date": "2025-01-29",
+    "department": "Product Management",
+    "estimated_effort_hours": 116,
+    "estimated_effort_difficulty": "Low",
+    "dependencies": [
+      "IT Security"
+    ],
+    "feature_roi_score": 2.7,
+    "user_votes": 151,
+    "strategic_alignment_score": 1.1,
+    "business_impact": "Low",
+    "tags": [
+      "Performance",
+      "Scalability",
+      "Cloud",
+      "User Experience"
+    ],
+    "status": "Pending"
+  },
+  {
+    "idea_id": "ID10224",
+    "title": "AI-Based Code Review Assistant",
+    "description": "The project is focused on enhance application scalability, allowing teams to operational efficiency.",
+    "submitted_by": "Dr. Jim Gray",
+    "submission_date": "2024-12-17",
+    "department": "R&D",
+    "estimated_effort_hours": 198,
+    "estimated_effort_difficulty": "High",
+    "dependencies": [
+      "Data Science",
+      "Product Management"
+    ],
+    "feature_roi_score": 1.0,
+    "user_votes": 59,
+    "strategic_alignment_score": 4.2,
+    "business_impact": "Low",
+    "tags": [
+      "Automation",
+      "Security"
+    ],
+    "status": "Pending"
+  },
+  {
+    "idea_id": "ID10125",
+    "title": "Real-Time Data Pipeline for Business Analytics",
+    "description": "This idea proposes to monitor DevOps workflows, helping to streamline user experience.",
+    "submitted_by": "Kevin Smith",
+    "submission_date": "2024-04-09",
+    "department": "Data Science",
+    "estimated_effort_hours": 123,
+    "estimated_effort_difficulty": "High",
+    "dependencies": [
+      "R&D",
+      "Data Science"
+    ],
+    "feature_roi_score": 6.0,
+    "user_votes": 92,
+    "strategic_alignment_score": 7.6,
+    "business_impact": "Moderate",
+    "tags": [
+      "Infrastructure",
+      "Microservices",
+      "Scalability"
+    ],
+    "status": "Pending"
+  },
+  {
+    "idea_id": "ID10157",
+    "title": "Cross-Platform UI Component Library",
+    "description": "The project is focused on monitor user access control, allowing teams to data governance.",
+    "submitted_by": "David Romero",
+    "submission_date": "2024-08-18",
+    "department": "Technical Support",
+    "estimated_effort_hours": 326,
+    "estimated_effort_difficulty": "Medium",
+    "dependencies": [
+      "IT Security",
+      "R&D"
+    ],
+    "feature_roi_score": 4.5,
+    "user_votes": 124,
+    "strategic_alignment_score": 3.3,
+    "business_impact": "Moderate",
+    "tags": [
+      "Security",
+      "DevOps",
+      "Infrastructure"
+    ],
+    "status": "Pending"
+  },
+  {
+    "idea_id": "ID10001",
+    "title": "Chatbot for Internal IT Support",
+    "description": "This initiative seeks to transform deployment pipelines to improve service availability.",
+    "submitted_by": "Steven Reed",
+    "submission_date": "2024-12-06",
+    "department": "Data Science",
+    "estimated_effort_hours": 302,
+    "estimated_effort_difficulty": "High",
+    "dependencies": [
+      "Quality Assurance",
+      "Product Management"
+    ],
+    "feature_roi_score": 7.4,
+    "user_votes": 12,
+    "strategic_alignment_score": 7.3,
+    "business_impact": "Low",
+    "tags": [
+      "Security",
+      "Automation"
+    ],
+    "status": "Pending"
+  },
+  {
+    "idea_id": "ID10160",
+    "title": "Employee Onboarding Workflow Automation",
+    "description": "This idea proposes to automate cloud cost management, helping to streamline response time.",
+    "submitted_by": "Brad Ruiz",
+    "submission_date": "2024-11-06",
+    "department": "IT Security",
+    "estimated_effort_hours": 224,
+    "estimated_effort_difficulty": "Low",
+    "dependencies": [
+      "Product Management"
+    ],
+    "feature_roi_score": 2.9,
+    "user_votes": 68,
+    "strategic_alignment_score": 1.9,
+    "business_impact": "Low",
+    "tags": [
+      "Performance",
+      "Cloud",
+      "Microservices",
+      "User Experience"
+    ],
+    "status": "Pending"
+  },
+  {
+    "idea_id": "ID10117",
+    "title": "Automated Security Patch Deployment",
+    "description": "This solution proposes to the challenge of application scalability by providing a way to streamline and enhance response time.",
+    "submitted_by": "Melissa Hunt",
+    "submission_date": "2024-07-25",
+    "department": "IT Security",
+    "estimated_effort_hours": 332,
+    "estimated_effort_difficulty": "Low",
+    "dependencies": [
+      "Technical Support",
+      "Data Science"
+    ],
+    "feature_roi_score": 4.3,
+    "user_votes": 64,
+    "strategic_alignment_score": 8.6,
+    "business_impact": "Moderate",
+    "tags": [
+      "DevOps",
+      "Microservices"
+    ],
+    "status": "Pending"
+  },
+  {
+    "idea_id": "ID10197",
+    "title": "API Usage Monitoring Service",
+    "description": "This idea proposes to secure infrastructure resilience, helping to streamline system reliability.",
+    "submitted_by": "Jeffrey Lee",
+    "submission_date": "2024-08-09",
+    "department": "Product Management",
+    "estimated_effort_hours": 179,
+    "estimated_effort_difficulty": "High",
+    "dependencies": [
+      "IT Security"
+    ],
+    "feature_roi_score": 3.8,
+    "user_votes": 6,
+    "strategic_alignment_score": 6.0,
+    "business_impact": "High",
+    "tags": [
+      "Scalability",
+      "User Experience",
+      "DevOps",
+      "Automation"
+    ],
+    "status": "Pending"
+  },
+  {
+    "idea_id": "ID10044",
+    "title": "API Usage Monitoring Service",
+    "description": "The project is focused on optimize deployment pipelines, allowing teams to service availability.",
+    "submitted_by": "Nancy Ramirez",
+    "submission_date": "2024-05-17",
+    "department": "R&D",
+    "estimated_effort_hours": 120,
+    "estimated_effort_difficulty": "High",
+    "dependencies": [
+      "IT Security",
+      "Technical Support"
+    ],
+    "feature_roi_score": 8.8,
+    "user_votes": 130,
+    "strategic_alignment_score": 7.1,
+    "business_impact": "High",
+    "tags": [
+      "DevOps",
+      "Automation",
+      "Scalability",
+      "Cloud"
+    ],
+    "status": "Pending"
+  },
+  {
+    "idea_id": "ID10113",
+    "title": "Role-Based Access Control System Upgrade",
+    "description": "The aim is to secure deployment pipelines to achieve better system reliability.",
+    "submitted_by": "Michael Smith",
+    "submission_date": "2025-01-21",
+    "department": "Technical Support",
+    "estimated_effort_hours": 72,
+    "estimated_effort_difficulty": "High",
+    "dependencies": [
+      "Quality Assurance",
+      "IT Security",
+      "Data Science"
+    ],
+    "feature_roi_score": 7.4,
+    "user_votes": 31,
+    "strategic_alignment_score": 5.0,
+    "business_impact": "High",
+    "tags": [
+      "Infrastructure",
+      "Microservices"
+    ],
+    "status": "Pending"
+  },
+  {
+    "idea_id": "ID10109",
+    "title": "Real-Time Data Pipeline for Business Analytics",
+    "description": "The aim is to modernize employee support systems to achieve better system reliability.",
+    "submitted_by": "Jack Russell",
+    "submission_date": "2024-09-01",
+    "department": "Data Science",
+    "estimated_effort_hours": 291,
+    "estimated_effort_difficulty": "Medium",
+    "dependencies": [
+      "Product Management",
+      "IT Security",
+      "Technical Support"
+    ],
+    "feature_roi_score": 8.2,
+    "user_votes": 70,
+    "strategic_alignment_score": 2.6,
+    "business_impact": "Low",
+    "tags": [
+      "Cloud",
+      "Microservices"
+    ],
+    "status": "Pending"
+  },
+  {
+    "idea_id": "ID10221",
+    "title": "Cross-Platform UI Component Library",
+    "description": "The project is focused on streamline deployment pipelines, allowing teams to cost reduction.",
+    "submitted_by": "Timothy Hawkins",
+    "submission_date": "2024-05-04",
+    "department": "R&D",
+    "estimated_effort_hours": 90,
+    "estimated_effort_difficulty": "Medium",
+    "dependencies": [
+      "Quality Assurance",
+      "R&D"
+    ],
+    "feature_roi_score": 3.0,
+    "user_votes": 5,
+    "strategic_alignment_score": 4.1,
+    "business_impact": "Moderate",
+    "tags": [
+      "Automation",
+      "Security"
+    ],
+    "status": "Pending"
+  },
+  {
+    "idea_id": "ID10199",
+    "title": "Zero Trust Network Access (ZTNA) Framework",
+    "description": "This solution seeks to the challenge of infrastructure resilience by providing a way to automate and enhance operational efficiency.",
+    "submitted_by": "Patricia Meza",
+    "submission_date": "2024-11-09",
+    "department": "Product Management",
+    "estimated_effort_hours": 197,
+    "estimated_effort_difficulty": "High",
+    "dependencies": [
+      "Quality Assurance"
+    ],
+    "feature_roi_score": 5.2,
+    "user_votes": 115,
+    "strategic_alignment_score": 9.4,
+    "business_impact": "High",
+    "tags": [
+      "Scalability",
+      "Cloud"
+    ],
+    "status": "Pending"
+  },
+  {
+    "idea_id": "ID10013",
+    "title": "Scalable Microservices Gateway",
+    "description": "This idea proposes to modernize application scalability, helping to streamline operational efficiency.",
+    "submitted_by": "Anthony Scott",
+    "submission_date": "2024-05-25",
+    "department": "Product Management",
+    "estimated_effort_hours": 270,
+    "estimated_effort_difficulty": "Medium",
+    "dependencies": [
+      "Quality Assurance",
+      "Product Management"
+    ],
+    "feature_roi_score": 6.1,
+    "user_votes": 72,
+    "strategic_alignment_score": 6.1,
+    "business_impact": "Low",
+    "tags": [
+      "Microservices",
+      "Infrastructure",
+      "User Experience"
+    ],
+    "status": "Pending"
+  },
+  {
+    "idea_id": "ID10183",
+    "title": "Scalable Microservices Gateway",
+    "description": "This initiative seeks to modernize deployment pipelines to improve developer productivity.",
+    "submitted_by": "Dr. Angela Meyer",
+    "submission_date": "2025-02-05",
+    "department": "Data Science",
+    "estimated_effort_hours": 149,
+    "estimated_effort_difficulty": "High",
+    "dependencies": [
+      "Technical Support",
+      "Data Science",
+      "R&D"
+    ],
+    "feature_roi_score": 7.3,
+    "user_votes": 87,
+    "strategic_alignment_score": 7.0,
+    "business_impact": "Low",
+    "tags": [
+      "Microservices",
+      "Performance",
+      "User Experience",
+      "Automation"
+    ],
+    "status": "Pending"
+  },
+  {
+    "idea_id": "ID10048",
+    "title": "Role-Based Access Control System Upgrade",
+    "description": "The aim is to streamline security compliance to achieve better user experience.",
+    "submitted_by": "Latoya Morgan",
+    "submission_date": "2025-03-25",
+    "department": "Quality Assurance",
+    "estimated_effort_hours": 233,
+    "estimated_effort_difficulty": "Medium",
+    "dependencies": [
+      "Data Science",
+      "Technical Support"
+    ],
+    "feature_roi_score": 9.2,
+    "user_votes": 60,
+    "strategic_alignment_score": 6.9,
+    "business_impact": "Low",
+    "tags": [
+      "Scalability",
+      "Microservices",
+      "Security",
+      "Automation"
+    ],
+    "status": "Pending"
+  },
+  {
+    "idea_id": "ID10145",
+    "title": "Dynamic Feature Flag Management",
+    "description": "This idea proposes to automate user access control, helping to streamline developer productivity.",
+    "submitted_by": "Ryan Fowler",
+    "submission_date": "2025-03-08",
+    "department": "Quality Assurance",
+    "estimated_effort_hours": 115,
+    "estimated_effort_difficulty": "Medium",
+    "dependencies": [
+      "Quality Assurance",
+      "R&D",
+      "Data Science"
+    ],
+    "feature_roi_score": 8.0,
+    "user_votes": 65,
+    "strategic_alignment_score": 7.0,
+    "business_impact": "High",
+    "tags": [
+      "Infrastructure",
+      "Automation",
+      "Microservices"
+    ],
+    "status": "Pending"
+  },
+  {
+    "idea_id": "ID10103",
+    "title": "Self-Healing Infrastructure Scripts",
+    "description": "This idea proposes to modernize IT operations, helping to streamline response time.",
+    "submitted_by": "Natalie Knapp",
+    "submission_date": "2025-01-03",
+    "department": "Quality Assurance",
+    "estimated_effort_hours": 129,
+    "estimated_effort_difficulty": "Low",
+    "dependencies": [
+      "Technical Support",
+      "R&D"
+    ],
+    "feature_roi_score": 4.3,
+    "user_votes": 34,
+    "strategic_alignment_score": 8.0,
+    "business_impact": "High",
+    "tags": [
+      "DevOps",
+      "Cloud",
+      "User Experience",
+      "Scalability"
+    ],
+    "status": "Pending"
+  },
+  {
+    "idea_id": "ID10174",
+    "title": "API Usage Monitoring Service",
+    "description": "This solution targets the challenge of user access control by providing a way to transform and enhance operational efficiency.",
+    "submitted_by": "Jason Coleman",
+    "submission_date": "2025-03-27",
+    "department": "Technical Support",
+    "estimated_effort_hours": 96,
+    "estimated_effort_difficulty": "Medium",
+    "dependencies": [
+      "Product Management",
+      "IT Security"
+    ],
+    "feature_roi_score": 8.1,
+    "user_votes": 46,
+    "strategic_alignment_score": 4.1,
+    "business_impact": "High",
+    "tags": [
+      "DevOps",
+      "User Experience"
+    ],
+    "status": "Pending"
+  },
+  {
+    "idea_id": "ID10022",
+    "title": "Zero Trust Network Access (ZTNA) Framework",
+    "description": "The project is focused on enhance IT operations, allowing teams to service availability.",
+    "submitted_by": "Emily Klein",
+    "submission_date": "2024-05-18",
+    "department": "IT Security",
+    "estimated_effort_hours": 81,
+    "estimated_effort_difficulty": "Low",
+    "dependencies": [
+      "IT Security"
+    ],
+    "feature_roi_score": 9.3,
+    "user_votes": 7,
+    "strategic_alignment_score": 7.7,
+    "business_impact": "Moderate",
+    "tags": [
+      "DevOps",
+      "Automation"
+    ],
+    "status": "Pending"
+  },
+  {
+    "idea_id": "ID10003",
+    "title": "DevOps Metrics Dashboard",
+    "description": "The project is focused on optimize cloud cost management, allowing teams to data governance.",
+    "submitted_by": "Benjamin Williams",
+    "submission_date": "2024-12-10",
+    "department": "Technical Support",
+    "estimated_effort_hours": 343,
+    "estimated_effort_difficulty": "High",
+    "dependencies": [
+      "Data Science"
+    ],
+    "feature_roi_score": 4.2,
+    "user_votes": 37,
+    "strategic_alignment_score": 7.2,
+    "business_impact": "Moderate",
+    "tags": [
+      "Scalability",
+      "Infrastructure",
+      "DevOps",
+      "Performance"
+    ],
+    "status": "Pending"
+  },
+  {
+    "idea_id": "ID10002",
+    "title": "Role-Based Access Control System Upgrade",
+    "description": "The project is focused on modernize security compliance, allowing teams to developer productivity.",
+    "submitted_by": "Jose Allen",
+    "submission_date": "2025-01-06",
+    "department": "Product Management",
+    "estimated_effort_hours": 274,
+    "estimated_effort_difficulty": "Low",
+    "dependencies": [
+      "R&D",
+      "Technical Support",
+      "Product Management"
+    ],
+    "feature_roi_score": 8.0,
+    "user_votes": 130,
+    "strategic_alignment_score": 7.7,
+    "business_impact": "Low",
+    "tags": [
+      "Performance",
+      "Cloud"
+    ],
+    "status": "Pending"
+  },
+  {
+    "idea_id": "ID10165",
+    "title": "Role-Based Access Control System Upgrade",
+    "description": "This initiative proposes to automate DevOps workflows to improve security posture.",
+    "submitted_by": "Henry Walker",
+    "submission_date": "2024-04-17",
+    "department": "IT Security",
+    "estimated_effort_hours": 254,
+    "estimated_effort_difficulty": "High",
+    "dependencies": [
+      "Product Management",
+      "Data Science",
+      "R&D"
+    ],
+    "feature_roi_score": 1.6,
+    "user_votes": 8,
+    "strategic_alignment_score": 6.8,
+    "business_impact": "High",
+    "tags": [
+      "Performance",
+      "DevOps"
+    ],
+    "status": "Pending"
+  },
+  {
+    "idea_id": "ID10153",
+    "title": "Automated Security Patch Deployment",
+    "description": "This initiative seeks to monitor deployment pipelines to improve security posture.",
+    "submitted_by": "Brian Hall",
+    "submission_date": "2024-11-20",
+    "department": "Product Management",
+    "estimated_effort_hours": 330,
+    "estimated_effort_difficulty": "Low",
+    "dependencies": [
+      "Technical Support",
+      "Product Management",
+      "R&D"
+    ],
+    "feature_roi_score": 7.4,
+    "user_votes": 98,
+    "strategic_alignment_score": 4.7,
+    "business_impact": "Moderate",
+    "tags": [
+      "Security",
+      "Performance",
+      "User Experience",
+      "Cloud"
+    ],
+    "status": "Pending"
+  },
+  {
+    "idea_id": "ID10129",
+    "title": "API Usage Monitoring Service",
+    "description": "This solution targets the challenge of cloud cost management by providing a way to streamline and enhance user experience.",
+    "submitted_by": "Theresa Murphy",
+    "submission_date": "2024-04-19",
+    "department": "Data Science",
+    "estimated_effort_hours": 158,
+    "estimated_effort_difficulty": "Medium",
+    "dependencies": [
+      "R&D"
+    ],
+    "feature_roi_score": 8.3,
+    "user_votes": 26,
+    "strategic_alignment_score": 7.0,
+    "business_impact": "High",
+    "tags": [
+      "DevOps",
+      "Automation",
+      "Security"
+    ],
+    "status": "Pending"
+  },
+  {
+    "idea_id": "ID10278",
+    "title": "Zero Trust Network Access (ZTNA) Framework",
+    "description": "This initiative intends to monitor security compliance to improve cost reduction.",
+    "submitted_by": "Joe Ingram",
+    "submission_date": "2025-01-30",
+    "department": "Quality Assurance",
+    "estimated_effort_hours": 229,
+    "estimated_effort_difficulty": "Medium",
+    "dependencies": [
+      "IT Security"
+    ],
+    "feature_roi_score": 4.4,
+    "user_votes": 28,
+    "strategic_alignment_score": 9.6,
+    "business_impact": "Low",
+    "tags": [
+      "Automation",
+      "Infrastructure",
+      "User Experience",
+      "Scalability"
+    ],
+    "status": "Pending"
+  },
+  {
+    "idea_id": "ID10057",
+    "title": "Chatbot for Internal IT Support",
+    "description": "This solution aims to the challenge of data analytics by providing a way to monitor and enhance security posture.",
+    "submitted_by": "Mark Watkins",
+    "submission_date": "2024-06-19",
+    "department": "Product Management",
+    "estimated_effort_hours": 150,
+    "estimated_effort_difficulty": "Medium",
+    "dependencies": [
+      "Quality Assurance"
+    ],
+    "feature_roi_score": 4.4,
+    "user_votes": 99,
+    "strategic_alignment_score": 7.3,
+    "business_impact": "High",
+    "tags": [
+      "DevOps",
+      "Security",
+      "Scalability",
+      "Microservices"
+    ],
+    "status": "Pending"
+  },
+  {
+    "idea_id": "ID10154",
+    "title": "Automated Regression Testing Suite",
+    "description": "The aim is to enhance deployment pipelines to achieve better security posture.",
+    "submitted_by": "Logan Lewis",
+    "submission_date": "2025-01-08",
+    "department": "Product Management",
+    "estimated_effort_hours": 289,
+    "estimated_effort_difficulty": "Low",
+    "dependencies": [
+      "Technical Support"
+    ],
+    "feature_roi_score": 2.0,
+    "user_votes": 10,
+    "strategic_alignment_score": 6.5,
+    "business_impact": "High",
+    "tags": [
+      "Microservices",
+      "Infrastructure",
+      "Security"
+    ],
+    "status": "Pending"
+  },
+  {
+    "idea_id": "ID10188",
+    "title": "Self-Healing Infrastructure Scripts",
+    "description": "The aim is to monitor deployment pipelines to achieve better developer productivity.",
+    "submitted_by": "Peter Adams Jr.",
+    "submission_date": "2025-02-09",
+    "department": "IT Security",
+    "estimated_effort_hours": 227,
+    "estimated_effort_difficulty": "Medium",
+    "dependencies": [
+      "Quality Assurance"
+    ],
+    "feature_roi_score": 9.4,
+    "user_votes": 35,
+    "strategic_alignment_score": 9.5,
+    "business_impact": "Low",
+    "tags": [
+      "DevOps",
+      "Infrastructure"
+    ],
+    "status": "Pending"
+  },
+  {
+    "idea_id": "ID10220",
+    "title": "Zero Trust Network Access (ZTNA) Framework",
+    "description": "This initiative intends to secure cloud cost management to improve system reliability.",
+    "submitted_by": "Paul Flores",
+    "submission_date": "2024-12-29",
+    "department": "R&D",
+    "estimated_effort_hours": 177,
+    "estimated_effort_difficulty": "Low",
+    "dependencies": [
+      "R&D",
+      "Technical Support",
+      "Product Management"
+    ],
+    "feature_roi_score": 4.0,
+    "user_votes": 141,
+    "strategic_alignment_score": 9.4,
+    "business_impact": "Moderate",
+    "tags": [
+      "Microservices",
+      "Cloud",
+      "DevOps"
+    ],
+    "status": "Pending"
+  },
+  {
+    "idea_id": "ID10029",
+    "title": "Smart Alert System for Server Failures",
+    "description": "This initiative seeks to secure application scalability to improve operational efficiency.",
+    "submitted_by": "Melissa Soto MD",
+    "submission_date": "2025-02-17",
+    "department": "Technical Support",
+    "estimated_effort_hours": 97,
+    "estimated_effort_difficulty": "Medium",
+    "dependencies": [
+      "Product Management"
+    ],
+    "feature_roi_score": 2.3,
+    "user_votes": 46,
+    "strategic_alignment_score": 9.0,
+    "business_impact": "High",
+    "tags": [
+      "Cloud",
+      "DevOps",
+      "User Experience"
+    ],
+    "status": "Pending"
+  },
+  {
+    "idea_id": "ID10081",
+    "title": "Zero Trust Network Access (ZTNA) Framework",
+    "description": "This initiative targets transform cloud cost management to improve system reliability.",
+    "submitted_by": "Jerry Jensen",
+    "submission_date": "2024-09-06",
+    "department": "IT Security",
+    "estimated_effort_hours": 171,
+    "estimated_effort_difficulty": "Medium",
+    "dependencies": [
+      "R&D",
+      "IT Security"
+    ],
+    "feature_roi_score": 2.2,
+    "user_votes": 149,
+    "strategic_alignment_score": 8.1,
+    "business_impact": "High",
+    "tags": [
+      "User Experience",
+      "Automation",
+      "Cloud"
+    ],
+    "status": "Pending"
+  },
+  {
+    "idea_id": "ID10203",
+    "title": "Employee Onboarding Workflow Automation",
+    "description": "The aim is to secure user access control to achieve better cost reduction.",
+    "submitted_by": "Tara Lopez",
+    "submission_date": "2024-12-09",
+    "department": "IT Security",
+    "estimated_effort_hours": 237,
+    "estimated_effort_difficulty": "Low",
+    "dependencies": [
+      "IT Security",
+      "Technical Support"
+    ],
+    "feature_roi_score": 8.1,
+    "user_votes": 93,
+    "strategic_alignment_score": 1.6,
+    "business_impact": "Low",
+    "tags": [
+      "DevOps",
+      "Automation",
+      "Microservices",
+      "Scalability"
+    ],
+    "status": "Pending"
+  },
+  {
+    "idea_id": "ID10298",
+    "title": "Scalable Microservices Gateway",
+    "description": "This solution aims to the challenge of application scalability by providing a way to transform and enhance security posture.",
+    "submitted_by": "Joshua Black",
+    "submission_date": "2024-09-04",
+    "department": "Data Science",
+    "estimated_effort_hours": 56,
+    "estimated_effort_difficulty": "High",
+    "dependencies": [
+      "R&D"
+    ],
+    "feature_roi_score": 3.3,
+    "user_votes": 145,
+    "strategic_alignment_score": 7.3,
+    "business_impact": "High",
+    "tags": [
+      "DevOps",
+      "Cloud",
+      "User Experience",
+      "Performance"
+    ],
+    "status": "Pending"
+  },
+  {
+    "idea_id": "ID10033",
+    "title": "Scalable Microservices Gateway",
+    "description": "This initiative intends to enhance infrastructure resilience to improve service availability.",
+    "submitted_by": "Elizabeth Walls",
+    "submission_date": "2025-02-17",
+    "department": "Data Science",
+    "estimated_effort_hours": 344,
+    "estimated_effort_difficulty": "Low",
+    "dependencies": [
+      "Data Science",
+      "Quality Assurance",
+      "IT Security"
+    ],
+    "feature_roi_score": 2.9,
+    "user_votes": 43,
+    "strategic_alignment_score": 7.0,
+    "business_impact": "Low",
+    "tags": [
+      "Microservices",
+      "Security"
+    ],
+    "status": "Pending"
+  },
+  {
+    "idea_id": "ID10128",
+    "title": "AI-Based Code Review Assistant",
+    "description": "This idea proposes to streamline data analytics, helping to streamline response time.",
+    "submitted_by": "Keith Clark",
+    "submission_date": "2024-10-01",
+    "department": "IT Security",
+    "estimated_effort_hours": 172,
+    "estimated_effort_difficulty": "Low",
+    "dependencies": [
+      "Quality Assurance"
+    ],
+    "feature_roi_score": 6.5,
+    "user_votes": 54,
+    "strategic_alignment_score": 5.6,
+    "business_impact": "Low",
+    "tags": [
+      "Infrastructure",
+      "Microservices"
+    ],
+    "status": "Pending"
+  },
+  {
+    "idea_id": "ID10268",
+    "title": "Zero Trust Network Access (ZTNA) Framework",
+    "description": "This solution proposes to the challenge of infrastructure resilience by providing a way to secure and enhance cost reduction.",
+    "submitted_by": "Christine Watson",
+    "submission_date": "2025-01-02",
+    "department": "R&D",
+    "estimated_effort_hours": 273,
+    "estimated_effort_difficulty": "Low",
+    "dependencies": [
+      "Quality Assurance",
+      "IT Security",
+      "Technical Support"
+    ],
+    "feature_roi_score": 7.4,
+    "user_votes": 73,
+    "strategic_alignment_score": 7.6,
+    "business_impact": "Moderate",
+    "tags": [
+      "Microservices",
+      "Performance"
+    ],
+    "status": "Pending"
+  },
+  {
+    "idea_id": "ID10190",
+    "title": "Cloud Cost Analyzer Tool",
+    "description": "The project is focused on modernize cloud cost management, allowing teams to developer productivity.",
+    "submitted_by": "Joseph Morgan",
+    "submission_date": "2025-03-05",
+    "department": "Data Science",
+    "estimated_effort_hours": 326,
+    "estimated_effort_difficulty": "Medium",
+    "dependencies": [
+      "IT Security",
+      "Technical Support",
+      "Data Science"
+    ],
+    "feature_roi_score": 8.3,
+    "user_votes": 136,
+    "strategic_alignment_score": 8.0,
+    "business_impact": "Moderate",
+    "tags": [
+      "Infrastructure",
+      "Microservices",
+      "Scalability"
+    ],
+    "status": "Pending"
+  },
+  {
+    "idea_id": "ID10054",
+    "title": "Employee Onboarding Workflow Automation",
+    "description": "This solution seeks to the challenge of DevOps workflows by providing a way to monitor and enhance system reliability.",
+    "submitted_by": "Robert Gonzalez",
+    "submission_date": "2024-07-06",
+    "department": "Technical Support",
+    "estimated_effort_hours": 299,
+    "estimated_effort_difficulty": "High",
+    "dependencies": [
+      "Product Management",
+      "Quality Assurance",
+      "R&D"
+    ],
+    "feature_roi_score": 4.2,
+    "user_votes": 83,
+    "strategic_alignment_score": 2.5,
+    "business_impact": "Low",
+    "tags": [
+      "User Experience",
+      "Microservices",
+      "Security",
+      "Scalability"
+    ],
+    "status": "Pending"
+  },
+  {
+    "idea_id": "ID10241",
+    "title": "Automated Security Patch Deployment",
+    "description": "The aim is to monitor security compliance to achieve better developer productivity.",
+    "submitted_by": "Melissa Thomas",
+    "submission_date": "2025-01-16",
+    "department": "R&D",
+    "estimated_effort_hours": 70,
+    "estimated_effort_difficulty": "High",
+    "dependencies": [
+      "Data Science",
+      "R&D",
+      "Product Management"
+    ],
+    "feature_roi_score": 4.1,
+    "user_votes": 108,
+    "strategic_alignment_score": 6.4,
+    "business_impact": "Moderate",
+    "tags": [
+      "Microservices",
+      "User Experience",
+      "Cloud",
+      "Performance"
+    ],
+    "status": "Pending"
+  },
+  {
+    "idea_id": "ID10246",
+    "title": "Zero Trust Network Access (ZTNA) Framework",
+    "description": "The project is focused on optimize application scalability, allowing teams to service availability.",
+    "submitted_by": "Michael Ramos",
+    "submission_date": "2024-05-12",
+    "department": "Technical Support",
+    "estimated_effort_hours": 279,
+    "estimated_effort_difficulty": "Medium",
+    "dependencies": [
+      "Quality Assurance",
+      "R&D",
+      "Product Management"
+    ],
+    "feature_roi_score": 10.0,
+    "user_votes": 109,
+    "strategic_alignment_score": 3.8,
+    "business_impact": "Low",
+    "tags": [
+      "Infrastructure",
+      "Microservices",
+      "Cloud"
+    ],
+    "status": "Pending"
+  },
+  {
+    "idea_id": "ID10291",
+    "title": "Centralized Log Analytics Platform",
+    "description": "This idea proposes to automate deployment pipelines, helping to streamline user experience.",
+    "submitted_by": "Jason Ritter",
+    "submission_date": "2025-03-30",
+    "department": "Technical Support",
+    "estimated_effort_hours": 349,
+    "estimated_effort_difficulty": "Medium",
+    "dependencies": [
+      "Technical Support",
+      "IT Security"
+    ],
+    "feature_roi_score": 7.1,
+    "user_votes": 76,
+    "strategic_alignment_score": 6.5,
+    "business_impact": "Moderate",
+    "tags": [
+      "DevOps",
+      "Cloud",
+      "Performance",
+      "Scalability"
+    ],
+    "status": "Pending"
+  },
+  {
+    "idea_id": "ID10132",
+    "title": "Role-Based Access Control System Upgrade",
+    "description": "The project is focused on automate application scalability, allowing teams to system reliability.",
+    "submitted_by": "Eric Duncan",
+    "submission_date": "2025-03-04",
+    "department": "Quality Assurance",
+    "estimated_effort_hours": 91,
+    "estimated_effort_difficulty": "High",
+    "dependencies": [
+      "IT Security",
+      "Data Science",
+      "Technical Support"
+    ],
+    "feature_roi_score": 8.3,
+    "user_votes": 106,
+    "strategic_alignment_score": 2.9,
+    "business_impact": "High",
+    "tags": [
+      "User Experience",
+      "DevOps",
+      "Automation"
+    ],
+    "status": "Pending"
+  },
+  {
+    "idea_id": "ID10092",
+    "title": "ML-Powered Incident Prediction System",
+    "description": "This idea proposes to automate infrastructure resilience, helping to streamline user experience.",
+    "submitted_by": "Luke Rodriguez",
+    "submission_date": "2024-07-30",
+    "department": "Data Science",
+    "estimated_effort_hours": 288,
+    "estimated_effort_difficulty": "Low",
+    "dependencies": [
+      "Data Science",
+      "Quality Assurance",
+      "Product Management"
+    ],
+    "feature_roi_score": 5.0,
+    "user_votes": 155,
+    "strategic_alignment_score": 6.0,
+    "business_impact": "High",
+    "tags": [
+      "Performance",
+      "Scalability",
+      "Infrastructure",
+      "Security"
+    ],
+    "status": "Pending"
+  },
+  {
+    "idea_id": "ID10053",
+    "title": "Real-Time Data Pipeline for Business Analytics",
+    "description": "This idea proposes to transform user access control, helping to streamline user experience.",
+    "submitted_by": "Glenn Martinez",
+    "submission_date": "2024-06-02",
+    "department": "R&D",
+    "estimated_effort_hours": 270,
+    "estimated_effort_difficulty": "Low",
+    "dependencies": [
+      "IT Security",
+      "Product Management",
+      "Technical Support"
+    ],
+    "feature_roi_score": 9.8,
+    "user_votes": 80,
+    "strategic_alignment_score": 5.9,
+    "business_impact": "Moderate",
+    "tags": [
+      "Security",
+      "Scalability"
+    ],
+    "status": "Pending"
+  },
+  {
+    "idea_id": "ID10200",
+    "title": "AI-Based Code Review Assistant",
+    "description": "The project is focused on transform cloud cost management, allowing teams to data governance.",
+    "submitted_by": "Kristina York",
+    "submission_date": "2024-10-25",
+    "department": "Quality Assurance",
+    "estimated_effort_hours": 115,
+    "estimated_effort_difficulty": "High",
+    "dependencies": [
+      "Quality Assurance"
+    ],
+    "feature_roi_score": 4.9,
+    "user_votes": 71,
+    "strategic_alignment_score": 3.3,
+    "business_impact": "High",
+    "tags": [
+      "Scalability",
+      "Cloud",
+      "User Experience",
+      "Performance"
+    ],
+    "status": "Pending"
+  },
+  {
+    "idea_id": "ID10217",
+    "title": "API Usage Monitoring Service",
+    "description": "The aim is to enhance application scalability to achieve better response time.",
+    "submitted_by": "William Carter",
+    "submission_date": "2024-05-06",
+    "department": "R&D",
+    "estimated_effort_hours": 77,
+    "estimated_effort_difficulty": "Medium",
+    "dependencies": [
+      "Product Management"
+    ],
+    "feature_roi_score": 5.9,
+    "user_votes": 103,
+    "strategic_alignment_score": 7.4,
+    "business_impact": "High",
+    "tags": [
+      "Automation",
+      "Performance"
+    ],
+    "status": "Pending"
+  },
+  {
+    "idea_id": "ID10073",
+    "title": "Smart Alert System for Server Failures",
+    "description": "This solution intends to the challenge of infrastructure resilience by providing a way to monitor and enhance security posture.",
+    "submitted_by": "Timothy Hanson",
+    "submission_date": "2024-07-19",
+    "department": "IT Security",
+    "estimated_effort_hours": 258,
+    "estimated_effort_difficulty": "Low",
+    "dependencies": [
+      "Quality Assurance",
+      "R&D",
+      "IT Security"
+    ],
+    "feature_roi_score": 7.5,
+    "user_votes": 103,
+    "strategic_alignment_score": 6.5,
+    "business_impact": "Moderate",
+    "tags": [
+      "Automation",
+      "Security",
+      "Infrastructure",
+      "User Experience"
+    ],
+    "status": "Pending"
+  },
+  {
+    "idea_id": "ID10089",
+    "title": "Data Privacy Compliance Tracker",
+    "description": "The project is focused on optimize user access control, allowing teams to developer productivity.",
+    "submitted_by": "Brian Green",
+    "submission_date": "2025-03-07",
+    "department": "Data Science",
+    "estimated_effort_hours": 326,
+    "estimated_effort_difficulty": "Low",
+    "dependencies": [
+      "Technical Support",
+      "Data Science",
+      "R&D"
+    ],
+    "feature_roi_score": 2.6,
+    "user_votes": 113,
+    "strategic_alignment_score": 9.7,
+    "business_impact": "Low",
+    "tags": [
+      "User Experience",
+      "DevOps"
+    ],
+    "status": "Pending"
+  }
+]

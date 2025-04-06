@@ -3,18 +3,13 @@
 from transformers import AutoTokenizer, AutoModelForCausalLM
 import torch
 
-model_id = "TinyLlama/TinyLlama-1.1B-Chat-v1.0"
-tokenizer = AutoTokenizer.from_pretrained(model_id)
-model = AutoModelForCausalLM.from_pretrained(model_id)
+tokenizer = AutoTokenizer.from_pretrained("TinyLlama/TinyLlama-1.1B-Chat-v1.0")
+model = AutoModelForCausalLM.from_pretrained("TinyLlama/TinyLlama-1.1B-Chat-v1.0")
 
 def generate_reasoning(idea):
     prompt = f"""
-You are an AI Agent assisting with idea prioritization from an innovation portal. Each idea has associated data including Estimated Implementation Effort and Feature ROI.
-Your task is to:
-Evaluate each idea using these factors.
-Provide a ranked list of ideas from most to least promising.
-For each idea, explicitly walk through your reasoning using the ReAct framework — first "Think" (analyze and reason), then "Act" (decide on the rank).
-Justify why some ideas are ranked higher or lower by referencing trade-offs between ROI and Effort.
+You are a helpful product strategist AI.
+Evaluate the following idea and explain its business priority:
 
 Title: {idea['title']}
 ROI Score: {idea['feature_roi_score']}
@@ -27,7 +22,7 @@ Response:"""
     inputs = tokenizer(prompt, return_tensors="pt")
     outputs = model.generate(
         **inputs,
-        max_length=200,
+        max_length=500,
         temperature=0.7,
         do_sample=True,
         top_p=0.9,
@@ -36,3 +31,22 @@ Response:"""
 
     response = tokenizer.decode(outputs[0], skip_special_tokens=True)
     return response.split("Response:")[-1].strip()
+
+def select_top_ideas_with_ai(ideas):
+    prompt = (
+        "You are an AI prioritization assistant. Your job is to read the following product ideas "
+        "and return the top 3 ideas based on strategic alignment, ROI, business impact, and ease of implementation.\n\n"
+        "Ideas:\n"
+    )
+    for idx, idea in enumerate(ideas):
+        prompt += f"{idx+1}. {idea['title']}: {idea['description']}\n"
+        prompt += f"   ROI: {idea['feature_roi_score']}, "
+        prompt += f"Alignment: {idea['strategic_alignment_score']}, "
+        prompt += f"Impact: {idea['business_impact']}, "
+        prompt += f"Effort: {idea['estimated_effort_difficulty']}\n\n"
+
+    prompt += "Return only the top 3 idea numbers (e.g., 1, 5, 7) and a brief reason for each.\n"
+
+    # Generate output (you’ll need OpenAI or TinyLLaMA)
+    outputs = model(prompt)
+    return outputs

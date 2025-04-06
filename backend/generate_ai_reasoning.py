@@ -8,9 +8,10 @@ with open(ORIGINAL_DATASET_PATH) as f:
     ideas = json.load(f)
 
 for i, idea in enumerate(ideas):
+    print(f"[{i+1}] ✅ {idea['title']}")
     if "ai_reasoning" not in idea:  # Avoid overwriting
         idea["ai_reasoning"] = generate_reasoning(idea)
-        print(f"[{i+1}] ✅ {idea['title']}")
+        # print(f"[{i+1}] ✅ {idea['title']}")
 
 # Save to a new file
 with open(AI_DATASET_PATH, "w") as f:
