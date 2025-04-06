@@ -2,9 +2,9 @@
 
 import json
 from llm_agent import generate_reasoning
-from config import DATASET_PATH
+from config import ORIGINAL_DATASET_PATH
 
-with open(DATASET_PATH) as f:
+with open(ORIGINAL_DATASET_PATH) as f:
     ideas = json.load(f)
 
 for i, idea in enumerate(ideas):
@@ -13,5 +13,5 @@ for i, idea in enumerate(ideas):
         print(f"[{i+1}] ✅ {idea['title']}")
 
 # Save to a new file
-with open("backend/data/small_tech_with_ai.json", "w") as f:
+with open("backend/data/tech_with_ai.json", "w") as f:
     json.dump(ideas, f, indent=2)

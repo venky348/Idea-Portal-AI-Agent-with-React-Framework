@@ -1,6 +1,5 @@
 # backend/app.py
-
-from fastapi import FastAPI, Query
+from fastapi import Request, FastAPI, Query
 from fastapi.middleware.cors import CORSMiddleware
 from backend.scoring import get_top_ideas
 
@@ -32,3 +31,11 @@ def top_ideas(
         impact_weight=impact_weight,
         effort_weight=effort_weight
     )
+
+@app.post("/feedback/")
+async def collect_feedback(request: Request):
+    feedback_data = await request.json()
+    with open("backend/data/feedback_log.json", "a") as f:
+        json.dump(feedback_data, f)
+        f.write("\n")
+    return {"message": "Feedback recorded"}
